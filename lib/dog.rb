@@ -5,7 +5,7 @@ class Dog
   
  def initialize(name)
    @name=name
-   #save
+   save
   end
   def self.all
     @@all
@@ -25,13 +25,11 @@ class Dog
     self.class.all << self
   end
 
-  def self.create
-    song = Song.new
-    song.save
-    song
-  end
-  
- 
+  #def self.create
+   # song = Song.new
+    #song.save
+    #song
+  #end
 end
  
    
