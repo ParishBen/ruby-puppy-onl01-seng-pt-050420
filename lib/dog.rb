@@ -19,7 +19,8 @@ class Dog
   @@all.select{|obj, name| obj[name] = [] 
   my_doggy_hash << obj[name]}
  
-my_doggy_hash
+ my_doggy_hash
+ end
 end
  
    
