@@ -17,8 +17,8 @@ class Dog
   my_doggy_hash={}
   my_doggy_hash << @@all
   my_doggy_hash.collect{|obj, name| obj[name] = @name
-  @name
+  @name}
  end
 end
- end
+ 
    
