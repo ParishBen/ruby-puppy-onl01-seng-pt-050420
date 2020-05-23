@@ -15,7 +15,7 @@ class Dog
   end
   def self.print_all
   my_doggy_hash={}
-  otherarr= []
+  my_doggy_hash << @@all
   @@all.select{|obj, name| obj[name] = [] 
   my_doggy_hash << obj[name]}
  
