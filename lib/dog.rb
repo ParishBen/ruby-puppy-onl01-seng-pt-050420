@@ -18,8 +18,8 @@ class Dog
   otherarr= []
   @@all.select{|obj, name| obj[name] = [] 
   my_doggy_hash << obj[name]}
- end
+ 
 my_doggy_hash
 end
- end
+ 
    
