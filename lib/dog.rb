@@ -16,9 +16,23 @@ class Dog
   def self.print_all
   @@all.collect{|dog| puts dog.name}
  end
- def self.save
-   #@@all << self
- end
+  @@all = []
+
+  def self.all
+    @@all
+  end
+
+  def save
+    self.class.all << self
+  end
+
+  def self.create
+    song = Song.new
+    song.save
+    song
+  end
+  
+ 
 end
  
    
