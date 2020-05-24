@@ -17,7 +17,7 @@ class Dog
   @@all.collect{|dog| puts dog.name}
    end
   def save
-    self.all << self
+    @@all << self
   end
 end
  
